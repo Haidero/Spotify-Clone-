@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
     <nav>
         <ul>
@@ -23,63 +25,85 @@
             <h1>Best of NCS - No Copyright Sounds</h1>
             <div class="songItemscontainer">
                 <div class="songItems">
-                <img src="covers/10.jpg" alt="1">
-                <span>Let me love me</span>
-                <span class="songlistplay"><span class="timestamp">5:31 <i class="fa-solid fa-circle-play"></i></span></span>
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songName">Let me love me</span>
+                    <span class="songlistplay"><span class="timestamp">5:31 <i
+                                class="fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/3.jpg" alt="1">
+                    <span class="songName">Let me love me</span>
+                    <span class="songlistplay"><span class="timestamp">5:31 <i
+                                class="fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/2.jpg" alt="1">
+                    <span class="songName">Let me love me</span>
+                    <span class="songlistplay"><span class="timestamp">5:31 <i
+                                class="fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/4.jpg" alt="1">
+                    <span class="songName">Let me love me</span>
+                    <span class="songlistplay"><span class="timestamp">5:31 <i
+                                class="fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/5.jpg" alt="1">
+                    <span class="songName">Let me love me</span>
+                    <span class="songlistplay"><span class="timestamp">5:31 <i
+                                class="fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/6.jpg" alt="1">
+                    <span class="songName">Let me love me</span>
+                    <span class="songlistplay"><span class="timestamp">5:31 <i
+                                class="fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/7.jpg" alt="1">
+                    <span class="songName">Let me love me</span>
+                    <span class="songlistplay"><span class="timestamp">5:31 <i
+                                class="fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/8.jpg" alt="1">
+                    <span class="songName">Let me love me</span>
+                    <span class="songlistplay"><span class="timestamp">5:31 <i
+                                class="fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/9.jpg" alt="1">
+                    <span class="songName">Let me love me</span>
+                    <span class="songlistplay"><span class="timestamp">5:31 <i
+                                class="fa-solid fa-circle-play"></i></span></span>
+                </div>
             </div>
             <div class="songItems">
                 <img src="covers/10.jpg" alt="1">
-                <span>Let me love me</span>
-                <span class="songlistplay"><span class="timestamp">5:31 <i class="fa-solid fa-circle-play"></i></span></span>
+                <span class="songName">Let me love me</span>
+                <span class="songlistplay"><span class="timestamp">5:31 <i
+                            class="fa-solid fa-circle-play"></i></span></span>
             </div>
-            <div class="songItems">
-                <img src="covers/10.jpg" alt="1">
-                <span>Let me love me</span>
-                <span class="songlistplay"><span class="timestamp">5:31 <i class="fa-solid fa-circle-play"></i></span></span>
-            </div>
-            <div class="songItems">
-                <img src="covers/10.jpg" alt="1">
-                <span>Let me love me</span>
-                <span class="songlistplay"><span class="timestamp">5:31 <i class="fa-solid fa-circle-play"></i></span></span>
-            </div>
-            <div class="songItems">
-                <img src="covers/10.jpg" alt="1">
-                <span>Let me love me</span>
-                <span class="songlistplay"><span class="timestamp">5:31 <i class="fa-solid fa-circle-play"></i></span></span>
-            </div>
-            <div class="songItems">
-                <img src="covers/10.jpg" alt="1">
-                <span>Let me love me</span>
-                <span class="songlistplay"><span class="timestamp">5:31 <i class="fa-solid fa-circle-play"></i></span></span>
-            </div>
-            <div class="songItems">
-                <img src="covers/10.jpg" alt="1">
-                <span>Let me love me</span>
-                <span class="songlistplay"><span class="timestamp">5:31 <i class="fa-solid fa-circle-play"></i></span></span>
-            </div>
-            <div class="songItems">
-                <img src="covers/10.jpg" alt="1">
-                <span>Let me love me</span>
-                <span class="songlistplay"><span class="timestamp">5:31 <i class="fa-solid fa-circle-play"></i></span></span>
-            </div>
-            </div>
-            
         </div>
-        <div class="soundbanner"></div>    
+
+    </div>
+    <div class="soundbanner"></div>
     </div>
 
     <div class="bottom">
-        <input type="range" name="range" id="myprogressBar" min="0" max="100">
+        <input type="range" name="range" id="myprogressBar" min="0" value="0" max="100">
         <div class="icons">
             <i class="fa-solid fa-3x fa-backward-step"></i>
-            <i class="fa-solid fa-3x fa-circle-play"></i>
+            <i id="masterPlay" class="fa-solid fa-3x fa-circle-play"></i>
             <i class="fa-solid fa-3x fa-forward-step"></i>
         </div>
 
         <div class="songinfo">
-            <img src="playing.gif" width="42px" srcset=""> Let me Love You Justin Beiber
+            <img src="playing.gif" width="42px" srcset="" id="gif"> Let me Love You Justin Beiber
         </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
